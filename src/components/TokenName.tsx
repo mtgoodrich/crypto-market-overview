@@ -14,7 +14,7 @@ interface TokenNameProps {
 
 const TokenName = ({ name }: TokenNameProps) => {
     const classes = useStyles();
-    return <div className={classes.pairingTokenName}>{name}ss</div>;
+    return <div className={classes.pairingTokenName}>{name}</div>;
 };
 
 export default TokenName;
